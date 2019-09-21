@@ -1,0 +1,18 @@
+{
+  "name": "torrent-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bittorrent-tracker": "^9.14.4",
+    "readable-stream": "^3.4.0",
+    "tape": "^4.11.0",
+    "webtorrent": "^0.107.16",
+    "webtorrent-hybrid": "^4.0.1"
+  }
+}

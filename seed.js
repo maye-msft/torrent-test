@@ -11,11 +11,11 @@ seeder.on('warning', function (err) { console.log(err) })
 
 var stream = new Readable()
 stream._read = function () { }
-stream.push('HELLO WORLD\n')
+stream.push('HELLO WORLD2\n')
 stream.push(null)
 
 var seederOpts = {
-    name: 'hello.txt',
+    name: 'hello2.txt',
     pieceLength: 5,
     announce: [announceUrl]
 }
